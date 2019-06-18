@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF10378822B975E700A63033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10378722B975E700A63033 /* AppDelegate.swift */; };
+		AF10378A22B975E700A63033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10378922B975E700A63033 /* ViewController.swift */; };
+		AF10378D22B975E700A63033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF10378B22B975E700A63033 /* Main.storyboard */; };
+		AF10378F22B975E800A63033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF10378E22B975E800A63033 /* Assets.xcassets */; };
+		AF10379222B975E800A63033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF10379022B975E800A63033 /* LaunchScreen.storyboard */; };
+		AF10379D22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10379C22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.swift */; };
+		AF1037A822B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1037A722B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.swift */; };
+		AF1037B622B979E700A63033 /* Ujjwal_Bhasin_CTC_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1037B522B979E700A63033 /* Ujjwal_Bhasin_CTC_Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF10379922B975E800A63033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF10377C22B975E700A63033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF10378322B975E700A63033;
+			remoteInfo = Ujjwal_Bhasin_Canada_Travel_Companion;
+		};
+		AF1037A422B975E800A63033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF10377C22B975E700A63033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF10378322B975E700A63033;
+			remoteInfo = Ujjwal_Bhasin_Canada_Travel_Companion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF10378422B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ujjwal_Bhasin_Canada_Travel_Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF10378722B975E700A63033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF10378922B975E700A63033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF10378C22B975E700A63033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF10378E22B975E800A63033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF10379122B975E800A63033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF10379322B975E800A63033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF10379822B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ujjwal_Bhasin_Canada_Travel_CompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF10379C22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ujjwal_Bhasin_Canada_Travel_CompanionTests.swift; sourceTree = "<group>"; };
+		AF10379E22B975E800A63033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1037A322B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ujjwal_Bhasin_Canada_Travel_CompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1037A722B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ujjwal_Bhasin_Canada_Travel_CompanionUITests.swift; sourceTree = "<group>"; };
+		AF1037A922B975E800A63033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1037B522B979E700A63033 /* Ujjwal_Bhasin_CTC_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ujjwal_Bhasin_CTC_Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF10378122B975E700A63033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF10379522B975E800A63033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1037A022B975E800A63033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF10377B22B975E700A63033 = {
+			isa = PBXGroup;
+			children = (
+				AF10378622B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion */,
+				AF10379B22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests */,
+				AF1037A622B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests */,
+				AF10378522B975E700A63033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF10378522B975E700A63033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF10378422B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion.app */,
+				AF10379822B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.xctest */,
+				AF1037A322B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF10378622B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion */ = {
+			isa = PBXGroup;
+			children = (
+				AF10378722B975E700A63033 /* AppDelegate.swift */,
+				AF10378922B975E700A63033 /* ViewController.swift */,
+				AF10378B22B975E700A63033 /* Main.storyboard */,
+				AF10378E22B975E800A63033 /* Assets.xcassets */,
+				AF10379022B975E800A63033 /* LaunchScreen.storyboard */,
+				AF10379322B975E800A63033 /* Info.plist */,
+				AF1037B522B979E700A63033 /* Ujjwal_Bhasin_CTC_Model.swift */,
+			);
+			path = Ujjwal_Bhasin_Canada_Travel_Companion;
+			sourceTree = "<group>";
+		};
+		AF10379B22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF10379C22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.swift */,
+				AF10379E22B975E800A63033 /* Info.plist */,
+			);
+			path = Ujjwal_Bhasin_Canada_Travel_CompanionTests;
+			sourceTree = "<group>";
+		};
+		AF1037A622B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1037A722B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.swift */,
+				AF1037A922B975E800A63033 /* Info.plist */,
+			);
+			path = Ujjwal_Bhasin_Canada_Travel_CompanionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF10378322B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1037AC22B975E800A63033 /* Build configuration list for PBXNativeTarget "Ujjwal_Bhasin_Canada_Travel_Companion" */;
+			buildPhases = (
+				AF10378022B975E700A63033 /* Sources */,
+				AF10378122B975E700A63033 /* Frameworks */,
+				AF10378222B975E700A63033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ujjwal_Bhasin_Canada_Travel_Companion;
+			productName = Ujjwal_Bhasin_Canada_Travel_Companion;
+			productReference = AF10378422B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF10379722B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1037AF22B975E800A63033 /* Build configuration list for PBXNativeTarget "Ujjwal_Bhasin_Canada_Travel_CompanionTests" */;
+			buildPhases = (
+				AF10379422B975E800A63033 /* Sources */,
+				AF10379522B975E800A63033 /* Frameworks */,
+				AF10379622B975E800A63033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF10379A22B975E800A63033 /* PBXTargetDependency */,
+			);
+			name = Ujjwal_Bhasin_Canada_Travel_CompanionTests;
+			productName = Ujjwal_Bhasin_Canada_Travel_CompanionTests;
+			productReference = AF10379822B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF1037A222B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1037B222B975E800A63033 /* Build configuration list for PBXNativeTarget "Ujjwal_Bhasin_Canada_Travel_CompanionUITests" */;
+			buildPhases = (
+				AF10379F22B975E800A63033 /* Sources */,
+				AF1037A022B975E800A63033 /* Frameworks */,
+				AF1037A122B975E800A63033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1037A522B975E800A63033 /* PBXTargetDependency */,
+			);
+			name = Ujjwal_Bhasin_Canada_Travel_CompanionUITests;
+			productName = Ujjwal_Bhasin_Canada_Travel_CompanionUITests;
+			productReference = AF1037A322B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF10377C22B975E700A63033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ujjwal Bhasin";
+				TargetAttributes = {
+					AF10378322B975E700A63033 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AF10379722B975E800A63033 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AF10378322B975E700A63033;
+					};
+					AF1037A222B975E800A63033 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AF10378322B975E700A63033;
+					};
+				};
+			};
+			buildConfigurationList = AF10377F22B975E700A63033 /* Build configuration list for PBXProject "Ujjwal_Bhasin_Canada_Travel_Companion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF10377B22B975E700A63033;
+			productRefGroup = AF10378522B975E700A63033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF10378322B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion */,
+				AF10379722B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests */,
+				AF1037A222B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF10378222B975E700A63033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF10379222B975E800A63033 /* LaunchScreen.storyboard in Resources */,
+				AF10378F22B975E800A63033 /* Assets.xcassets in Resources */,
+				AF10378D22B975E700A63033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF10379622B975E800A63033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1037A122B975E800A63033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF10378022B975E700A63033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF10378A22B975E700A63033 /* ViewController.swift in Sources */,
+				AF1037B622B979E700A63033 /* Ujjwal_Bhasin_CTC_Model.swift in Sources */,
+				AF10378822B975E700A63033 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF10379422B975E800A63033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF10379D22B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF10379F22B975E800A63033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1037A822B975E800A63033 /* Ujjwal_Bhasin_Canada_Travel_CompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF10379A22B975E800A63033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF10378322B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion */;
+			targetProxy = AF10379922B975E800A63033 /* PBXContainerItemProxy */;
+		};
+		AF1037A522B975E800A63033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF10378322B975E700A63033 /* Ujjwal_Bhasin_Canada_Travel_Companion */;
+			targetProxy = AF1037A422B975E800A63033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF10378B22B975E700A63033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF10378C22B975E700A63033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF10379022B975E800A63033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF10379122B975E800A63033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1037AA22B975E800A63033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1037AB22B975E800A63033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1037AD22B975E800A63033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ujjwal_Bhasin_Canada_Travel_Companion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UB.Ujjwal-Bhasin-Canada-Travel-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1037AE22B975E800A63033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ujjwal_Bhasin_Canada_Travel_Companion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UB.Ujjwal-Bhasin-Canada-Travel-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF1037B022B975E800A63033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ujjwal_Bhasin_Canada_Travel_CompanionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UB.Ujjwal-Bhasin-Canada-Travel-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ujjwal_Bhasin_Canada_Travel_Companion.app/Ujjwal_Bhasin_Canada_Travel_Companion";
+			};
+			name = Debug;
+		};
+		AF1037B122B975E800A63033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ujjwal_Bhasin_Canada_Travel_CompanionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UB.Ujjwal-Bhasin-Canada-Travel-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ujjwal_Bhasin_Canada_Travel_Companion.app/Ujjwal_Bhasin_Canada_Travel_Companion";
+			};
+			name = Release;
+		};
+		AF1037B322B975E800A63033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ujjwal_Bhasin_Canada_Travel_CompanionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UB.Ujjwal-Bhasin-Canada-Travel-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ujjwal_Bhasin_Canada_Travel_Companion;
+			};
+			name = Debug;
+		};
+		AF1037B422B975E800A63033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ujjwal_Bhasin_Canada_Travel_CompanionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UB.Ujjwal-Bhasin-Canada-Travel-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ujjwal_Bhasin_Canada_Travel_Companion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF10377F22B975E700A63033 /* Build configuration list for PBXProject "Ujjwal_Bhasin_Canada_Travel_Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1037AA22B975E800A63033 /* Debug */,
+				AF1037AB22B975E800A63033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1037AC22B975E800A63033 /* Build configuration list for PBXNativeTarget "Ujjwal_Bhasin_Canada_Travel_Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1037AD22B975E800A63033 /* Debug */,
+				AF1037AE22B975E800A63033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1037AF22B975E800A63033 /* Build configuration list for PBXNativeTarget "Ujjwal_Bhasin_Canada_Travel_CompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1037B022B975E800A63033 /* Debug */,
+				AF1037B122B975E800A63033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1037B222B975E800A63033 /* Build configuration list for PBXNativeTarget "Ujjwal_Bhasin_Canada_Travel_CompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1037B322B975E800A63033 /* Debug */,
+				AF1037B422B975E800A63033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF10377C22B975E700A63033 /* Project object */;
+}
